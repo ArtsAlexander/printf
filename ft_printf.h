@@ -6,7 +6,7 @@
 /*   By: aarts <aarts@student.s19.be>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/09 15:54:03 by aarts             #+#    #+#             */
-/*   Updated: 2022/03/09 16:58:32 by aarts            ###   ########.fr       */
+/*   Updated: 2022/03/09 17:51:24 by aarts            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,5 +26,6 @@ int		ft_putsmolhex(long int n, int ret);
 int		ft_putbighex(long int n, int ret);
 int		ft_putadress(unsigned long long int n, int ret);
 int		flagcheck (const char * format,int ret ,va_list data, int i);
+
 
 #endif
